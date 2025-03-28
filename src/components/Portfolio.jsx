@@ -1,10 +1,10 @@
 function Portfolio({ className }) {
     const projects = [
       {
-        title: 'Secure Chat App',
+        title: 'Secure WebRTC App',
         desc: 'Encrypted real-time chat app with AES-256.',
-        tech: 'React.js, Node.js',
-        link: 'https://github.com/username/secure-chat',
+        tech: 'React.js, Express, WebRTC, WebSockets',
+        link: 'https://github.com/hamidsiddiqi2009/WebRTC',
       },
       {
         title: 'Penetration Testing Tool',

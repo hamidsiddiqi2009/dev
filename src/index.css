@@ -26,3 +26,49 @@ body {
   50% { transform: scale(1.05); }
   100% { transform: scale(1); }
 }
+/* Add this to your CSS file */
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  background: #00ff99;
+  opacity: 0.6;
+}
+
+.particle-1 {
+  width: 10px;
+  height: 10px;
+  left: 20%;
+  top: 30%;
+  animation: float 4s infinite ease-in-out;
+}
+
+.particle-2 {
+  width: 15px;
+  height: 15px;
+  left: 60%;
+  top: 50%;
+  animation: float 5s infinite ease-in-out;
+}
+
+.particle-3 {
+  width: 8px;
+  height: 8px;
+  left: 80%;
+  top: 20%;
+  animation: float 3s infinite ease-in-out;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-20px);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0.6;
+  }
+}

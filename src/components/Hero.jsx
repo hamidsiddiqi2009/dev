@@ -43,7 +43,7 @@ const Hero = ({ className }) => {
           Hamid Siddiqi
         </h1>
         <p className="text-lg md:text-2xl mt-4 text-gray-300">
-          Web Developer | Cybersecurity Enthusiast
+          Web Developer | Graphic Designer |Cybersecurity Enthusiast
         </p>
         <div
           ref={consoleRef}

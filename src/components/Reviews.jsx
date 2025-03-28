@@ -12,9 +12,9 @@ function Reviews({ className }) {
       text: 'John’s expertise in secure web development transformed our project. Highly recommend!',
     },
     {
-      name: 'Bob Johnson',
-      role: 'Cybersecurity Analyst',
-      text: 'His penetration testing skills are top-notch. A true professional.',
+      name: 'Mark P.',
+      role: 'Public Relations',
+      text: "Hamid is amazing at what he does. Works quickly and is very responsive. He made exactly what we asked for and was able to show proof of it working. I couldn't be more happy with the product he created for us and will be my first choice for anything else we need going forward. Thanks brother I hope to be working with you again in the future!",
     },
     {
       name: 'Clara Lee',

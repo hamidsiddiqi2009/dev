@@ -6,8 +6,8 @@ function About({ className }) {
           I'm a web developer with a passion for building secure, futuristic applications and a
           cybersecurity enthusiast dedicated to protecting the digital realm.
         </p>
-        <ul className="mt-8 flex flex-wrap justify-center gap-6">
-          {['🔒 Secure Coding', '💻 React.js', '🛡️ Penetration Testing', '🌐 Network Security', '🐍 Python'].map(
+        <ul className="mt-8 flex max-w-2x1 mx-auto flex-wrap justify-center gap-6">
+          {['🔒 Secure Coding', '💻 React.js', '🛡️ Penetration Testing', '🌐 Network Security', '🐍 Python', 'Javascript', 'Wordpress', 'Django', 'Flask', 'Graphic Designing', 'PHP', 'Web Scraping'].map(
             (skill) => (
               <li
                 key={skill}
