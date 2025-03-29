@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hamidsiddiqi2009.github.io/dev/",
+  "homepage": "https://hamid.is-a.dev",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
